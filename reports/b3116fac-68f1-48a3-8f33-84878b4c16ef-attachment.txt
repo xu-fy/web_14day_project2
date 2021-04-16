@@ -1,0 +1,23 @@
+INFO     mylog:conftest.py:67 ====学生身份进行登录====
+INFO     mylog:base_page.py:119 往输入框--【登录页面_账号输入】--输入值成功
+INFO     mylog:base_page.py:119 往输入框--【登录页面_密码输入】--输入值成功
+INFO     mylog:base_page.py:101 点击元素--【登录页面_登录按钮】--成功
+ERROR    mylog:base_page.py:96 点击元素--【首页_学生加入课程】--失败
+ERROR    mylog:base_page.py:97 Message: element click intercepted: Element <div class="ktcon1l fr">...</div> is not clickable at point (718, 123). Other element would receive the click: <a id="user" href="javascript:;">...</a>
+  (Session info: headless chrome=88.0.4324.104)
+Traceback (most recent call last):
+  File "C:\project\python_35\py35_web_test\web_13day_project\common\base_page.py", line 94, in click_element
+    self.driver.find_element(*loc).click()
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\python37\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <div class="ktcon1l fr">...</div> is not clickable at point (718, 123). Other element would receive the click: <a id="user" href="javascript:;">...</a>
+  (Session info: headless chrome=88.0.4324.104)
+
+INFO     mylog:base_page.py:289 对-【首页_学生加入课程】--操作进行截图--成功
+INFO     mylog:base_page.py:290 图片保存为C:\project\python_35\py35_web_test\web_13day_project\error_images\2021-02-27_09_53_24_首页_学生加入课程.png

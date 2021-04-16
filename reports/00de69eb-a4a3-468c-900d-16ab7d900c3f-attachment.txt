@@ -1,0 +1,19 @@
+INFO     mylog:conftest.py:51 ====老师身份进行登录====
+INFO     mylog:base_page.py:119 往输入框--【登录页面_账号输入】--输入值成功
+INFO     mylog:base_page.py:119 往输入框--【登录页面_密码输入】--输入值成功
+INFO     mylog:base_page.py:101 点击元素--【登录页面_登录按钮】--成功
+INFO     mylog:test_work_attendance.py:94 =========步骤三：校验考勤人数=======
+INFO     mylog:base_page.py:101 点击元素--【首页_点击课程】--成功
+INFO     mylog:base_page.py:101 点击元素--【课程页面_考勤按钮】--成功
+INFO     mylog:base_page.py:252 等待iframe可见并进行切换--【课程页面_考勤iframe】--成功
+ERROR    mylog:base_page.py:187 等待元素可见--【课程页面_已考勤人数】--失败
+ERROR    mylog:base_page.py:188 Message: 
+Traceback (most recent call last):
+  File "C:\project\python_35\py35_web_test\web_13day_project\common\base_page.py", line 184, in wait_element_visibility
+    EC.visibility_of_element_located(loc)
+  File "C:\python37\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+INFO     mylog:base_page.py:289 对-【课程页面_已考勤人数】--操作进行截图--成功
+INFO     mylog:base_page.py:290 图片保存为C:\project\python_35\py35_web_test\web_13day_project\error_images\2021-02-27_09_51_31_课程页面_已考勤人数.png

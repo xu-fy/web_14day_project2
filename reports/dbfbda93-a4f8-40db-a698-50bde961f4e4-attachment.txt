@@ -1,0 +1,14 @@
+INFO     mylog:conftest.py:58 ====老师身份进行登录====
+INFO     mylog:base_page.py:119 往输入框--【登录页面_账号输入】--输入值成功
+INFO     mylog:base_page.py:119 往输入框--【登录页面_密码输入】--输入值成功
+INFO     mylog:base_page.py:101 点击元素--【登录页面_登录按钮】--成功
+INFO     mylog:test_work_attendance.py:94 =========步骤三：校验考勤人数=======
+INFO     mylog:base_page.py:101 点击元素--【首页_点击课程】--成功
+INFO     mylog:base_page.py:101 点击元素--【课程页面_考勤按钮】--成功
+INFO     mylog:base_page.py:252 等待iframe可见并进行切换--【课程页面_考勤iframe】--成功
+INFO     mylog:base_page.py:192 等待元素可见--【课程页面_已考勤人数】--成功
+INFO     mylog:base_page.py:153 查找元素--【课程页面_已考勤人数】--成功
+INFO     mylog:test_work_attendance.py:105 考勤之后，考勤人数为：:1
+INFO     mylog:base_page.py:101 点击元素--【课程页面_结束考勤】--成功
+INFO     mylog:base_page.py:101 点击元素--【课程页面_弹框结束考勤】--成功
+INFO     mylog:test_work_attendance.py:116 【登录成功的用例】————>执行通过

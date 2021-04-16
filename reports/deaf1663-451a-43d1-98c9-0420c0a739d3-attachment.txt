@@ -1,0 +1,6 @@
+INFO     mylog:conftest.py:67 ====学生身份进行登录====
+INFO     mylog:base_page.py:119 往输入框--【登录页面_账号输入】--输入值成功
+INFO     mylog:base_page.py:119 往输入框--【登录页面_密码输入】--输入值成功
+INFO     mylog:base_page.py:101 点击元素--【登录页面_登录按钮】--成功
+INFO     mylog:test_work_attendance.py:83 =========步骤二：学生进行考勤=======
+INFO     mylog:base_page.py:101 点击元素--【首页_点击课程】--成功

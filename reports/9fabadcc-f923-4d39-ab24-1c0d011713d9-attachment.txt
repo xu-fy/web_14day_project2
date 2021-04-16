@@ -1,0 +1,11 @@
+INFO     mylog:conftest.py:74 ====学生身份进行登录====
+INFO     mylog:base_page.py:119 往输入框--【登录页面_账号输入】--输入值成功
+INFO     mylog:base_page.py:119 往输入框--【登录页面_密码输入】--输入值成功
+INFO     mylog:base_page.py:101 点击元素--【登录页面_登录按钮】--成功
+INFO     mylog:base_page.py:101 点击元素--【首页_学生加入课程】--成功
+INFO     mylog:base_page.py:119 往输入框--【首页_学生输入加课码】--输入值成功
+INFO     mylog:base_page.py:101 点击元素--【首页_学生加入课程的加入按钮】--成功
+INFO     mylog:base_page.py:65 查找元素--【首页_查找课程】--成功
+WARNING  urllib3.connectionpool:connectionpool.py:662 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0D226D70>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a390ad9104734c1ed67d7d91d44f2949
+WARNING  urllib3.connectionpool:connectionpool.py:662 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0D4A7670>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a390ad9104734c1ed67d7d91d44f2949
+WARNING  urllib3.connectionpool:connectionpool.py:662 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0D4A77D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。')': /session/a390ad9104734c1ed67d7d91d44f2949
