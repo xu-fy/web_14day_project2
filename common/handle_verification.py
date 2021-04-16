@@ -92,3 +92,6 @@ class VerificationCode(BasePage):
         # print(resultj)  # 打印识别的验证码
         return result_four
 
+    @staticmethod
+    def add(a, b):
+        a = b
